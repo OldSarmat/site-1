@@ -491,6 +491,7 @@ input::-webkit-inner-spin-button {
 	text-align: center;
 }
 
+
 @media screen and (max-width: 769px) {
 
 	.menu__mobile {
@@ -630,7 +631,7 @@ input::-webkit-inner-spin-button {
 		top: 18px;
 		left: 5px;
 		right: 5px;
-		transition: background 0s 0.3s;
+		transition: 0s 0.3s;
 	}
 
 	.menu__burger span:after,
@@ -645,6 +646,10 @@ input::-webkit-inner-spin-button {
 		transition-delay: 0.3s, 0s;
 	}
 
+	.menu__burger.close span {
+		background: none;
+	}
+
 	.menu__burger span:after {
 		top: -10px;
 	}
@@ -655,10 +660,6 @@ input::-webkit-inner-spin-button {
 
 	.menu__burger span:before {
 		bottom: -10px;
-	}
-
-	.menu__burger.close span {
-		background: none;
 	}
 
 	.menu__burger.close span:after {
